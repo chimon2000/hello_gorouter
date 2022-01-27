@@ -1,0 +1,6 @@
+{
+  "appTitle": "hello_gorouter",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
