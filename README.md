@@ -1,16 +1,26 @@
 # hello_gorouter
 
-A new Flutter project.
+This project is a quick POC to show how to swap out routes using [GoRouter](https://gorouter.dev/).
 
-## Getting Started
+## Architecture
 
-This project is a starting point for a Flutter application that follows the
-[simple app state management
-tutorial](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple).
+This application uses Flutter's skeleton template, with some key changes/additions.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### app_router.dev
+
+Defines the AppRouter that initializes GoRouter.  Swaps out the GoRouter implementation depending on whether the user is logged in.
+
+### settings
+
+Change theme and allow the user to logout.
+
+### settings
+
+Allow users to login to the app.
+
+### sample_feature
+
+A pretend list/details feature.
 
 ## Assets
 
